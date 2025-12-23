@@ -354,8 +354,8 @@ const SubmitWebsiteForm = ({ isOpen, onClose }) => {
 
           {/* 提示信息 */}
           <div className="text-xs text-gray-500 pt-2">
-            <p>· 我们会在1-3个工作日内审核您的提交</p>
-            <p>· 审核结果将通过邮件通知您</p>
+            <p>· 我们会在1-7个工作日内审核您的提交</p>
+            <p>· 审核结果将通过龙旗飞书通知您</p>
             <p>· 请确保提交的网站内容健康、合法</p>
           </div>
         </form>

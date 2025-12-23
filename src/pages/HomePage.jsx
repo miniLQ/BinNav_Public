@@ -140,21 +140,6 @@ function HomePage() {
                 />
               </div>
             </div>
-
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm" className="hidden md:flex text-gray-600 hover:text-gray-900 hover:bg-gray-100">
-                <Globe size={16} className="mr-1" />
-                中文
-              </Button>
-              <Button
-                variant="ghost" 
-                size="sm"
-                className="lg:hidden"
-                onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              >
-                {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
-              </Button>
-            </div>
           </div>
         </div>
       </header>
@@ -252,23 +237,6 @@ function HomePage() {
                       <div className="text-xs text-gray-500">推荐优质网站</div>
                     </div>
                   </button>
-                  
-
-                  
-                  <a 
-                    href="https://github.com/your-username/binnav" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group"
-                  >
-                    <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mr-3">
-                      <span className="text-orange-600 text-sm">ℹ️</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-gray-900 group-hover:text-orange-600">关于导航</div>
-                      <div className="text-xs text-gray-500">网站介绍说明</div>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -385,16 +353,7 @@ function HomePage() {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-800 transition-colors"
                 >
-                  Sindri
-                </a>
-                <span className="mx-2">·</span>
-                <a
-                  href="https://github.com/sindricn/BinNav"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 transition-colors"
-                >
-                  MIT License
+                  iliuqi
                 </a>
               </div>
 
